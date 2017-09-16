@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT pointsList (point*)>
+<!ELEMENT point (x,y)>
+<!ATTLIST point unit(cm|mm|px) #REQUIRED>
+<!ELEMENT x (#PCDATA)>
+<!ELEMENT y (#PCDATA)>
+
+ <!--  * Created by LIKHTAROVICH on 04.09.2017.
+       * Для xml, сделанного в предыдущем задании, создайте DTD с жестко
+       * заданными значениями параметра unit тега point -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="pointsList" type="PointsList"/>
+
+    <xs:complexType name="PointsList">
+        <xs:sequence>
+            <xs:element name="point" type="Points" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Points">
+        <xs:sequence>
+            <xs:element name="x" type="xs:int"/>
+            <xs:element name="y" type="xs:int"/>
+        </xs:sequence>
+        <xs:attribute name="unit" type="Units" />
+    </xs:complexType>
+
+    <xs:simpleType name="Units">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="cm"/>
+            <xs:enumeration value="mm"/>
+            <xs:enumeration value="px"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
+        <!--  * Created by LIKHTAROVICH on 04.09.2017.
+              * Для xml, сделанного в предыдущем задании, создайте схему с жестко
+              * заданными значениями параметра unit тега point -->

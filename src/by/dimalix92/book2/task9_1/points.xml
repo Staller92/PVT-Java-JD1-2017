@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PointsList>
+    <point unit="www">
+        <x>1</x>
+        <y>2</y>
+    </point>
+    <point unit="www">
+        <x>10</x>
+        <y>20</y>
+    </point>
+</PointsList>

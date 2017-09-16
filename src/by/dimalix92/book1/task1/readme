@@ -1,0 +1,10 @@
+Набрать в консоле команду вида javac HelloWorld.java
+Для успешного выполнения команды вы должны находится в том же
+каталоге, что и ваш файл. В результате файл откомпилируется и создастся
+файл с расширением .class.(байт код)
+Далее программу можно запускать командой java HelloWorld.
+Так же необходимо прописать путь: set path="%path%";"C:\Program Files\Java\jdk1.8.0_141\bin"
+Либо отредактировать переменную среды path.
+D:\My tasks\Java\PVT\src> java by.dimalix92.book1.task1.HelloWorld
+или set classpath=%classpath%;D:\My tasks\Java\PVT\src
+    java by.dimalix92.book1.task1.HelloWorld

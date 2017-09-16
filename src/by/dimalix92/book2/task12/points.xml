@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="points.xsl"?>
+<PointsList>
+    <point unit="px">
+        <x>11</x>
+        <y>24</y>
+    </point>
+    <point unit="mm">
+        <x>10</x>
+        <y>20</y>
+    </point>
+    <point unit="cm">
+        <x>18</x>
+        <y>25</y>
+    </point>
+</PointsList>
