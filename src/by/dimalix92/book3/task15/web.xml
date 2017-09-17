@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+         metadata-complete="true">
+
+
+    <!--task15-->
+    <servlet>
+        <servlet-name>Servletik</servlet-name>
+        <servlet-class>by.dimalix92.book3.task15.ServletDB</servlet-class>
+        <init-param>
+            <param-name>DATABASE_URL</param-name>
+            <param-value>jdbc:mysql://localhost:3306/listexpenses</param-value>
+        </init-param>
+        <init-param>
+            <param-name>DATABASE_USER</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>DATABASE_PASSWORD</param-name>
+            <param-value>root</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletik</servlet-name>
+        <url-pattern>/show</url-pattern>
+    </servlet-mapping>
+
+         
+
+
+
+
+
+
+
+
+
+</web-app>
